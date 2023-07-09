@@ -7,15 +7,31 @@ body {
 /* header styles */
 .header {
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
+
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
+
+.banner .banner-greet {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner .banner-title {
+    font-size: 85px;
+    font-weight: 700;
+}
+
 .banner .profile-pic {
     width: 500px;
 }
+
 /* nav styles */
 nav {
     display: flex;
